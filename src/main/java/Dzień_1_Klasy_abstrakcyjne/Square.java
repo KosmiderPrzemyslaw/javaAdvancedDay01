@@ -6,11 +6,11 @@ public class Square extends Shape {
     }
 
     private double a;
-    double calculateArea() {
+    protected double calculateArea() {
         return a*a;
     }
 
-    double calculateCircuit() {
+    protected double calculateCircuit() {
         return 4*a;
     }
 
@@ -24,8 +24,6 @@ public class Square extends Shape {
 
     @Override
     public String toString() {
-        return "Square{" +
-                "a=" + a +
-                '}';
+        return "Kwadrat o boku: " + a;
     }
 }

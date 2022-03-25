@@ -9,11 +9,11 @@ public class Rectangle extends Shape {
         this.b = b;
     }
 
-    double calculateArea() {
+    protected double calculateArea() {
         return a * b;
     }
 
-    double calculateCircuit() {
+    protected double calculateCircuit() {
         return 2 * a + 2 * b;
     }
 
@@ -35,9 +35,6 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return "Rectangle{" +
-                "a=" + a +
-                ", b=" + b +
-                '}';
+        return "Prostokąt o bokach: " + " a = " + a + " b= " + b;
     }
 }

@@ -9,11 +9,11 @@ public class Circle extends Shape {
     private static final double pi = Math.PI;
     private double radius;
 
-    double calculateArea() {
+    protected double calculateArea() {
         return pi * Math.pow(radius, 2);
     }
 
-    double calculateCircuit() {
+    protected double calculateCircuit() {
         return 2 * pi * radius;
     }
 

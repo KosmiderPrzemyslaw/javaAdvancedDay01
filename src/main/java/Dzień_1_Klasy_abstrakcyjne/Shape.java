@@ -1,12 +1,10 @@
 package Dzień_1_Klasy_abstrakcyjne;
 
 public abstract class Shape {
-    double area;
-    double circut;
-    String color;
+    private double circut;
+    private double area;
+    private String color;
 
-    abstract double calculateArea();
-    abstract double calculateCircuit();
-
-
+ protected abstract double calculateArea();
+ protected abstract double calculateCircuit();
 }

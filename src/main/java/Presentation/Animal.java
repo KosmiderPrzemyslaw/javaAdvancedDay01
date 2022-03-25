@@ -1,3 +1,5 @@
+package Presentation;
+
 public abstract class Animal {
     public int noOfLegs;
 
